@@ -1,8 +1,8 @@
-name: Learning GitHub Actions
-run-name: I am Learning GitHub Actions!
+name: Learning GitHub Actions Name
+run-name: I am Learning GitHub Actions Run-name!
 on: [push]
 jobs:
-  hello-world:
+  hello-world-job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
